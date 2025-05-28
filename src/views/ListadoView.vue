@@ -6,8 +6,8 @@ import Template from '../components/Template.vue'
   <Titulo texto="holiwis" />
   <Template>
     <template #parrafo>
-      <p>Esto es solo el parrafo</p>
+      <p class="animate__animated animate__bounceInUp">En el mapa no se ve</p>
     </template>
-    <p>tu mami</p>
+    <p class="animate__animated animate__rubberBand">Chi chi chi le le le</p>
   </Template>
 </template>

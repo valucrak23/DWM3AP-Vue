@@ -18,7 +18,11 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
   </header>
 
-  <RouterView />
+  <RouterView v-slot="{ Component }">
+    <Transition mode="out-in" enter-active-class="animate__animated animate__rubberBand">
+      <component :is="Component"></component>
+    </Transition>
+  </RouterView>
 </template>
 
 <style scoped>

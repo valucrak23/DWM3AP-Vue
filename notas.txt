@@ -2,3 +2,8 @@ git init
 git remote add origin https://github.com/valucrak23/DWM3AP-Vue.git
 git branch -M main
 git add .
+git commit -m "init"
+git config --global user.email valentina.ijelchuk@davinci.edu.ar
+git config --global user.name valucrak23
+git commit -m "init"
+git push -u origin main
